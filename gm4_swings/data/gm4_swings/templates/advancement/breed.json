@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "breed_{{ entity_id }}": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "{{ entity_id }}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gm4_lavish_livestock:{{ entity_id }}/revoke_advancement"
+    }
+}

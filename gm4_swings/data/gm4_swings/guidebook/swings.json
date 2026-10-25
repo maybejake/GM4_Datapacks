@@ -1,0 +1,69 @@
+{
+  "id": "swings",
+  "name": "Swings",
+  "module_type": "module",
+  "icon": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:item_model": "gm4_swings:blue_swing"
+    }
+  },
+  "criteria": {
+    "has_materials": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:cushions"
+          }
+        ]
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "display",
+      "enable": [],
+      "requirements": [
+        [
+          "has_materials"
+        ]
+      ],
+      "pages": [
+        [
+          {
+            "insert": "title"
+          },
+          {
+            "text":"\n"
+          },
+          {
+            "translate": "text.gm4.guidebook.lavish_livestock.description",
+            "fallback": "Breeding livestock may result in offspring that is abnormally large.\n\nLarger livestock drops more loot."
+          }
+        ],
+        [
+          {
+            "translate":"text.gm4.guidebook.lavish_livestock.list_header",
+            "fallback":"Livestock",
+            "underlined":true
+          },
+          {"text":"\n\n"},
+          {"translate":"entity.minecraft.chicken", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.cow", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.hoglin", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.mooshroom", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.pig", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.rabbit", "underlined":false},
+          {"text":"\n"},
+          {"translate":"entity.minecraft.sheep", "underlined":false}
+        ]
+      ]
+    }
+  ]
+}

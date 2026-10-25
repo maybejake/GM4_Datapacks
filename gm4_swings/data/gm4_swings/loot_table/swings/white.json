@@ -10,7 +10,7 @@
             {
               "type": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"item.gm4_swings.white_swing", "fallback":"white Swing"},
+                "minecraft:item_name": {"translate":"item.gm4_swings.white_swing", "fallback":"White Swing"},
                 "minecraft:item_model": "gm4_swings:white_swing"
               }
             },

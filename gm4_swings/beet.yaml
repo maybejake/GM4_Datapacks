@@ -9,10 +9,28 @@ resource_pack:
   load: .
 
 pipeline:
+  - gm4_swings.generate
   - gm4.plugins.extend.module
   - gm4.plugins.include.lib_player_motion
 
 meta:
+  colors:
+    - white
+    - orange
+    - magenta
+    - light_blue
+    - yellow
+    - lime
+    - pink
+    - gray
+    - light_gray
+    - cyan
+    - purple
+    - blue
+    - brown
+    - green
+    - red
+    - black
   gm4:
     versioning:
       schedule_loops:

@@ -13,7 +13,7 @@
     "id": "minecraft:player_head",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"translate":"item.gm4_swings.light_blue_swing", "fallback":"light_blue Swing"},
+      "minecraft:item_name": {"translate":"item.gm4_swings.light_blue_swing", "fallback":"Light Blue Swing"},
       "minecraft:item_model": "gm4_swings:light_blue_swing",
       "minecraft:custom_data": {"gm4_swings":{"type":"light_blue"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:profile": {"texture":"gm4_swings:block/transparent_head"},
